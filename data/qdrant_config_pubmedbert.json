@@ -1,0 +1,9 @@
+{
+  "embedding_model_name": "pritamdeka/S-PubMedBert-MS-MARCO",
+  "embedding_dimension": 768,
+  "collection_name": "pubmedqa_chunks_pubmedbert",
+  "distance_metric": "cosine",
+  "number_of_points_stored": 1483,
+  "rerank_method": "rrf",
+  "rrf_k": 60
+}

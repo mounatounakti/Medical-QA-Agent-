@@ -1,0 +1,7 @@
+{
+  "embedding_model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "collection_name": "pubmedqa_chunks",
+  "distance_metric": "cosine",
+  "number_of_points_stored": 1483
+}
