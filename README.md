@@ -1,4 +1,4 @@
-## Project Goal 🫀
+## Project Goal 🔬
 The main goal of this project is to improve the reliability, trustworthiness, and explainability of medical LLM-generated answers.
 
 ### The proposed system combines:
@@ -7,6 +7,7 @@ The main goal of this project is to improve the reliability, trustworthiness, an
 - **Hallucination mitigation** to correct or recover unsupported and contradicted claims.
 - **Human-in-the-loop review** for claims that cannot be safely resolved automatically.
 - **XAI traceability** to explain how each answer was generated, verified, corrected, and finalized.  
+
 → The overall objective is to build a reliable medical QA assistant that generates evidence-grounded, traceable, and explainable biomedical answers.
 
 ## Main Objectives
@@ -80,7 +81,7 @@ The XAI module show:
 **Purpose:** Make the complete RAG and hallucination-control process transparent and auditable.
 
 ## Project Pipline
-
+![1](pipline.png)
 
 ## Project Structure
 
@@ -124,3 +125,14 @@ Stores environment variables and API configuration required by the project, such
 
 > **Note:** I will not upload this file
 
+## Technologies Used
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Qdrant](https://img.shields.io/badge/Qdrant-Vector_DB-purple)
+![BioMistral](https://img.shields.io/badge/BioMistral-Medical_LLM-green)
+![MiniLM](https://img.shields.io/badge/MiniLM-Embeddings-blue)
+![PubMedBERT](https://img.shields.io/badge/PubMedBERT-Biomedical_Embeddings-green)
+![DeBERTa](https://img.shields.io/badge/DeBERTa-NLI-yellow)
+![Gemini](https://img.shields.io/badge/Gemini-Flash--Lite-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep_Learning-red)
